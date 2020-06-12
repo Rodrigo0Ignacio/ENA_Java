@@ -19,7 +19,7 @@ public class ConexionBD {
     /*
     Creamos las variable para la conexion a la BD
     */
-    private final String url = "jdbc:mysql://localhost:3306/Requerimientos";
+    private final String url = "jdbc:mysql://localhost:3306/Requerimiento";
     private final String user = "root";
     private final String password = "";
     private final String driver = "com.mysql.jdbc.Driver";
