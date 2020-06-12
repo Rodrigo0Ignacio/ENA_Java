@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>ValidaDatos</servlet-name>
+        <servlet-class>controladores.ValidaDatos</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CerrarR</servlet-name>
+        <servlet-class>controladores.CerrarR</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ConsultarR</servlet-name>
+        <servlet-class>controladores.ConsultarR</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>IngresarR</servlet-name>
+        <servlet-class>controladores.IngresarR</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ValidaDatos</servlet-name>
+        <url-pattern>/validaDatos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CerrarR</servlet-name>
+        <url-pattern>/cerrarR</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ConsultarR</servlet-name>
+        <url-pattern>/consultarR</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>IngresarR</servlet-name>
+        <url-pattern>/ingresarR</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
