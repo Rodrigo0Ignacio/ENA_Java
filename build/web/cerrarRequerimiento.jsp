@@ -6,7 +6,7 @@
 <%
     ConexionBD con = new ConexionBD();
     
-    // incocamos los metodo para listar los usuarios
+    // invocamos los metodo para listar los usuarios
     ResultSet lista = con.datosGerente();
     ResultSet lista1 = con.datosDepartamento();
     ResultSet lista2 = con.datosAsignar();
