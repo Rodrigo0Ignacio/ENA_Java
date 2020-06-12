@@ -23,7 +23,7 @@
 
     // incovamos el metodo para eliminar un registro de la tabla
     boolean  mensajeD = con.EliminarRegistro(idnum);
-    String md=String.valueOf(mensajeD);  
+   // String md=String.valueOf(mensajeD);  
 
    
     // redirecciona a la pagina "cerrar Requerimiento.jsp"

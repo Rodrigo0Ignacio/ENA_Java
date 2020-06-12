@@ -47,11 +47,6 @@ String mensaje = (String) request.getAttribute("envia");
 
         <% } %>
         <% } %>       
-<!-- inportacion de JS-->
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-<script src="js/alarm.js"></script>
-
-
 
     </body>
 </html>

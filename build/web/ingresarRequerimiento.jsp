@@ -19,7 +19,6 @@ ArrayList errores = (ArrayList) request.getAttribute("errores");
 
 String alerta  = (String) request.getAttribute("alerta");
 
-
 %>
 <html>
     <head>
@@ -129,13 +128,6 @@ String alerta  = (String) request.getAttribute("alerta");
 
         </form>
         <%} %>
-
-
-
-
-
-
-
 
 
     </body>

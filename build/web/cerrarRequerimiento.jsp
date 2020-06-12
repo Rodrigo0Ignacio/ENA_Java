@@ -17,9 +17,6 @@
     // capturamos los errores
     ArrayList errores = (ArrayList) request.getAttribute("errores");
     
-   
-   
-
 %>
 <html>
     <head>
@@ -141,11 +138,5 @@
                 </form>
             <%  } %>
             
-            
-            
-            
-          
-                               
-     
     </body>
 </html>
